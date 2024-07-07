@@ -240,6 +240,10 @@ a {
   width: 399px;
 }
 
+.content__list-item:hover {
+  text-decoration: underline;
+}
+
 .content__card-link {
   display: block;
   color:#fff;
@@ -256,11 +260,6 @@ a {
 
 .content__card-link:active {
   background-color: #545050;
-}
-
-.content__card-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
 
 .content__card-link_current {
